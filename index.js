@@ -5,5 +5,6 @@ function findMatching(arr,s){
 }
 
 function fuzzyMatch(arr,s){
+  let l = s.toLowerCase().
   let m = arr.filter(matching => matching.toLowerCase())
 }
