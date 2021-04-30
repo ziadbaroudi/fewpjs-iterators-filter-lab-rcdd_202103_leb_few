@@ -12,5 +12,5 @@ function fuzzyMatch(arr,s){
 
 function matchName(arr, s){
   let m = arr.filter(r=> r.name === s)
-  return m
+  return m;
 }
