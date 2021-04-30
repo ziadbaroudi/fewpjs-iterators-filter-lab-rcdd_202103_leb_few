@@ -9,3 +9,4 @@ function fuzzyMatch(arr,s){
   let m = arr.filter(matching => matching.toLowerCase().charAt(0) === l)
   return m
 }
+
