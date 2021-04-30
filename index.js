@@ -10,3 +10,4 @@ function fuzzyMatch(arr,s){
   return m
 }
 
+function matchName(arr, s)
