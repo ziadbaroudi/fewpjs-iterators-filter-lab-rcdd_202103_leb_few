@@ -10,4 +10,6 @@ function fuzzyMatch(arr,s){
   return m
 }
 
-function matchName(arr, s)
+function matchName(arr, s){
+  let m = arr.filter(r=> r.name === s)
+}
